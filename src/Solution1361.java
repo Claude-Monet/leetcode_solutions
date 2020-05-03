@@ -2,7 +2,6 @@ import java.util.*;
 
 public class Solution1361 {
     public boolean validateBinaryTreeNodes(int n, int[] leftChild, int[] rightChild) {
-
         if (n == 1) return true;
         Map<Integer, Integer> m = new HashMap<>();
         int[] flag = new int[n];
